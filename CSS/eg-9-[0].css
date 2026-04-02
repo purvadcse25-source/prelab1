@@ -1,0 +1,12 @@
+.con {
+    column-count: 3;
+    column-width: 300px;  
+}
+body{
+ background-color: rgb(247, 250, 253);
+}
+@media(max-width:600%) {
+.con {
+    column-count: 1;
+}
+}
